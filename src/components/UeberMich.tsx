@@ -25,26 +25,35 @@ export function UeberMich() {
 
             <div className="mt-8 space-y-5 leading-relaxed text-foreground-muted">
               <p>
-                Ich habe Psychologie an der Universität Bern studiert und 2004
-                mit dem Lizentiat abgeschlossen. Meine Studienschwerpunkte
-                umfassten Arbeits- und Organisationspsychologie sowie Klinische
-                Psychologie.
+                Mein Psychologiestudium an der Universität Bern mit den
+                Schwerpunkten Arbeits- und Organisationspsychologie sowie
+                Klinische Psychologie bildet das wissenschaftliche Fundament
+                meiner Arbeit.
               </p>
               <p>
-                Ich verfüge über mehr als 20 Jahre Berufserfahrung in der Arbeit
-                mit Menschen, Führung und Veränderungsprozessen.
+                In über 20 Jahren Berufserfahrung, davon viele Jahre in
+                internationalen Führungsfunktionen, habe ich Menschen und Teams
+                aus unterschiedlichen Ländern und Kulturen begleitet. Die
+                Zusammenarbeit über kulturelle Grenzen hinweg hat mir gezeigt,
+                wie unterschiedlich Menschen denken, fühlen, kommunizieren und
+                mit Herausforderungen umgehen.
               </p>
               <p>
-                In meiner Beratung verbinde ich wissenschaftlich fundierte
-                Psychologie mit philosophischer Reflexion, Resilienz und
-                lösungsorientierten Ansätzen. Im Mittelpunkt stehen der Mensch,
-                seine individuellen Ressourcen und die Entwicklung neuer
-                Perspektiven.
+                Auch meine zahlreichen Reisen und persönlichen Begegnungen mit
+                anderen Kulturen haben meinen Blick erweitert. Unterschiedliche
+                Vorstellungen von Glück, Erfolg, Beziehungen und einem erfüllten
+                Leben sind für mich wertvolle Impulse, vertraute Denkmuster zu
+                hinterfragen und neue Perspektiven zu entdecken.
               </p>
               <p>
-                Die Psychologie bildet die fachliche Grundlage, meine
-                langjährige Berufserfahrung und meine Ausbildung als Executive
-                Coach ergänzen meinen Beratungsansatz.
+                Bei WeitSinn verbinde ich wissenschaftlich fundierte Psychologie
+                mit philosophischer Reflexion, interkultureller Offenheit,
+                Resilienz und lösungsorientierten Ansätzen.
+              </p>
+              <p className="font-medium text-foreground">
+                Mein Ziel ist nicht, vorgefertigte Antworten zu geben, sondern
+                gemeinsam zu verstehen, was bewegt, anzunehmen, was ist, und neue
+                Handlungsmöglichkeiten zu entwickeln.
               </p>
             </div>
           </div>

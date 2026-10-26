@@ -13,8 +13,11 @@ export function Hero() {
         <h1 className="font-serif text-[2.75rem] leading-[1.08] tracking-tight text-green sm:text-5xl lg:text-[3.35rem]">
           WeitSinn
         </h1>
-        <p className="mt-5 font-serif text-2xl leading-snug text-foreground sm:text-[1.7rem]">
-          Neue Perspektiven für ein selbstbestimmtes Leben.
+        <p className="mt-5 font-serif text-2xl font-semibold leading-snug text-foreground sm:text-[1.7rem]">
+          Verstehen. Annehmen. Weiterkommen.
+        </p>
+        <p className="mt-2 font-serif text-xl leading-snug text-foreground-muted sm:text-[1.35rem]">
+          Understand. Embrace. Move on.
         </p>
         <p className="mt-7 max-w-md text-[1.05rem] leading-relaxed text-foreground-muted">
           Psychologische Beratung für Erwachsene, die Klarheit suchen und
