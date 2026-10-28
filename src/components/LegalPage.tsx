@@ -2,13 +2,15 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+import { LegalDisclosure } from "./LegalDisclosure";
 
 type LegalPageProps = {
   title: string;
+  summary: string;
   children: ReactNode;
 };
 
-export function LegalPage({ title, children }: LegalPageProps) {
+export function LegalPage({ title, summary, children }: LegalPageProps) {
   return (
     <>
       <Header />
@@ -21,8 +23,12 @@ export function LegalPage({ title, children }: LegalPageProps) {
         <h1 className="font-serif text-3xl tracking-tight text-green sm:text-4xl">
           {title}
         </h1>
-        <div className="mt-10 space-y-8 text-[1.05rem] leading-relaxed text-foreground-muted">
-          {children}
+        <p className="mt-4 max-w-xl text-[1.05rem] leading-relaxed text-foreground-muted">
+          Der vollständige Text steht in einem aufklappbaren Bereich und kann
+          bei Bedarf wieder eingeklappt werden.
+        </p>
+        <div className="mt-10">
+          <LegalDisclosure summary={summary}>{children}</LegalDisclosure>
         </div>
       </main>
       <Footer />

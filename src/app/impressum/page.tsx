@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ImpressumPage() {
   return (
-    <LegalPage title="Impressum">
+    <LegalPage title="Impressum" summary="Impressum anzeigen">
       <div>
         <p className="font-medium text-foreground">Tam Nguyen</p>
         <p>Psychologe lic. phil.</p>
@@ -40,12 +40,20 @@ export default function ImpressumPage() {
             kontakt@weitsinn.ch
           </a>
         </p>
+        <p className="mt-3">
+          Telefon:{" "}
+          <a
+            href="tel:+41786868089"
+            className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
+          >
+            +41 78 686 80 89
+          </a>
+        </p>
       </div>
 
       <div className="border-t border-line pt-8 text-sm">
         <p className="font-medium text-foreground">Noch zu ergänzen / prüfen</p>
         <ul className="mt-3 list-disc space-y-1 pl-5">
-          <li>Telefonnummer (falls gewünscht)</li>
           <li>UID / MWST-Angaben (falls registrierungspflichtig)</li>
           <li>Berufsregister / Aufsicht – nur falls zutreffend und belegt</li>
         </ul>
