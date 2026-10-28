@@ -1,0 +1,35 @@
+export function Footer() {
+  return (
+    <footer className="border-t border-line">
+      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-10 sm:px-8 lg:flex-row lg:items-start lg:justify-between lg:px-10">
+        <div>
+          <p className="font-serif text-xl text-green">WeitSinn.ch</p>
+          <p className="mt-2 text-sm text-foreground-muted">
+            Tam Nguyen · Psychologe lic. phil.
+          </p>
+        </div>
+
+        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-foreground-muted">
+          <a
+            href="#impressum"
+            className="transition-colors hover:text-green"
+            id="impressum"
+          >
+            Impressum
+            <span className="ml-1 text-xs text-sage">(noch zu ergänzen)</span>
+          </a>
+          <a
+            href="#datenschutz"
+            className="transition-colors hover:text-green"
+            id="datenschutz"
+          >
+            Datenschutz
+            <span className="ml-1 text-xs text-sage">(noch zu ergänzen)</span>
+          </a>
+        </div>
+
+        <p className="text-sm text-foreground-muted">© WeitSinn.ch</p>
+      </div>
+    </footer>
+  );
+}
