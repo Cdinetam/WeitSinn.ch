@@ -12,7 +12,7 @@ export function UeberMich() {
           <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden bg-beige/60 lg:mx-0">
             <Image
               src="/images/weitsinn-portrait.jpg"
-              alt="Porträt Tam Nguyen"
+              alt="Tam Nguyen, Psychologe lic. phil., Porträt"
               fill
               sizes="(min-width: 1024px) 28vw, (min-width: 640px) 50vw, 90vw"
               className="object-cover object-[center_20%]"
@@ -29,30 +29,15 @@ export function UeberMich() {
 
             <div className="mt-8 space-y-5 leading-relaxed text-foreground-muted">
               <p>
-                Mein Psychologiestudium an der Universität Bern mit den
-                Schwerpunkten Arbeits- und Organisationspsychologie sowie
-                Klinische Psychologie bildet das wissenschaftliche Fundament
-                meiner Arbeit.
+                Ich habe Psychologie an der Universität Bern studiert und mit dem
+                Lizentiat abgeschlossen. Schwerpunkte waren Arbeits- und
+                Organisationspsychologie sowie Klinische Psychologie.
               </p>
               <p>
-                In über 20 Jahren Berufserfahrung, davon viele Jahre in
-                internationalen Führungsfunktionen, habe ich Menschen und Teams
-                aus unterschiedlichen Ländern und Kulturen begleitet. Die
-                Zusammenarbeit über kulturelle Grenzen hinweg hat mir gezeigt,
-                wie unterschiedlich Menschen denken, fühlen, kommunizieren und
-                mit Herausforderungen umgehen.
-              </p>
-              <p>
-                Auch meine zahlreichen Reisen und persönlichen Begegnungen mit
-                anderen Kulturen haben meinen Blick erweitert. Unterschiedliche
-                Vorstellungen von Glück, Erfolg, Beziehungen und einem erfüllten
-                Leben sind für mich wertvolle Impulse, vertraute Denkmuster zu
-                hinterfragen und neue Perspektiven zu entdecken.
-              </p>
-              <p>
-                Bei WeitSinn verbinde ich wissenschaftlich fundierte Psychologie
-                mit philosophischer Reflexion, interkultureller Offenheit,
-                Resilienz und lösungsorientierten Ansätzen.
+                Beruflich habe ich Menschen und Teams über viele Jahre begleitet –
+                auch in internationalen und interkulturellen Kontexten. Das hat
+                meinen Blick dafür geschärft, wie unterschiedlich Menschen denken,
+                fühlen und mit Herausforderungen umgehen.
               </p>
               <p className="font-medium text-foreground">
                 Mein Ziel ist nicht, vorgefertigte Antworten zu geben, sondern

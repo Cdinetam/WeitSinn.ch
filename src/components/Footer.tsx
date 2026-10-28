@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="border-t border-line">
@@ -10,12 +12,12 @@ export function Footer() {
         </div>
 
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-foreground-muted">
-          <a href="#impressum" className="transition-colors hover:text-green">
+          <Link href="/impressum" className="transition-colors hover:text-green">
             Impressum
-          </a>
-          <a href="#datenschutz" className="transition-colors hover:text-green">
+          </Link>
+          <Link href="/datenschutz" className="transition-colors hover:text-green">
             Datenschutz
-          </a>
+          </Link>
         </div>
 
         <p className="text-sm text-foreground-muted">© WeitSinn.ch</p>

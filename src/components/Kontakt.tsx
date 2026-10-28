@@ -23,13 +23,18 @@ export function Kontakt() {
               Kontakt aufnehmen
             </a>
             <p className="text-sm text-foreground-muted">
-              E-Mail (Platzhalter):{" "}
+              E-Mail:{" "}
               <a
                 href="mailto:kontakt@weitsinn.ch"
                 className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
               >
                 kontakt@weitsinn.ch
               </a>
+            </p>
+            <p className="mx-auto max-w-md text-sm leading-relaxed text-foreground-muted">
+              Bitte senden Sie keine vertraulichen Gesundheitsangaben unverschlüsselt
+              per E-Mail. Für sensible Inhalte vereinbaren wir einen geeigneten
+              Rahmen im Gespräch.
             </p>
           </div>
         </div>

@@ -16,16 +16,31 @@ const sourceSans = Source_Sans_3({
   display: "swap",
 });
 
+const siteUrl = "https://www.weitsinn.ch";
+
 export const metadata: Metadata = {
-  title: "WeitSinn – Psychologische Beratung | Tam Nguyen",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "WeitSinn | Psychologische Beratung in Zürich",
+    template: "%s | WeitSinn",
+  },
   description:
-    "Psychologische Beratung in der Schweiz: Neue Perspektiven für ein selbstbestimmtes Leben. Tam Nguyen, Psychologe lic. phil.",
+    "Psychologische Beratung in Zürich: Verstehen. Annehmen. Weiterkommen. Tam Nguyen, Psychologe lic. phil. – Klarheit und neue Perspektiven für ein selbstbestimmtes Leben.",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
-    title: "WeitSinn – Psychologische Beratung",
+    title: "WeitSinn | Psychologische Beratung in Zürich",
     description:
-      "Neue Perspektiven für ein selbstbestimmtes Leben. Psychologische Beratung von Tam Nguyen, Psychologe lic. phil.",
+      "Psychologische Beratung in Zürich von Tam Nguyen, Psychologe lic. phil. Verstehen. Annehmen. Weiterkommen.",
     locale: "de_CH",
     type: "website",
+    url: siteUrl,
+    siteName: "WeitSinn",
   },
 };
 
