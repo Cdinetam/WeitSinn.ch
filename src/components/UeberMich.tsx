@@ -29,20 +29,23 @@ export function UeberMich() {
 
             <div className="mt-8 space-y-5 leading-relaxed text-foreground-muted">
               <p>
-                Ich habe Psychologie an der Universität Bern studiert und mit dem
-                Lizentiat abgeschlossen. Schwerpunkte waren Arbeits- und
-                Organisationspsychologie sowie Klinische Psychologie.
+                Mein Studium der Psychologie an der Universität Bern habe ich mit
+                dem Lizentiat abgeschlossen. Meine Schwerpunkte lagen in der
+                Arbeits- und Organisationspsychologie sowie der Klinischen
+                Psychologie.
               </p>
               <p>
-                Beruflich habe ich Menschen und Teams über viele Jahre begleitet –
-                auch in internationalen und interkulturellen Kontexten. Das hat
-                meinen Blick dafür geschärft, wie unterschiedlich Menschen denken,
-                fühlen und mit Herausforderungen umgehen.
+                Über viele Jahre habe ich Menschen und Teams begleitet – in
+                Unternehmen ebenso wie bei persönlichen Anliegen, auch in
+                internationalen und interkulturellen Kontexten. Diese Erfahrungen
+                haben meinen Blick dafür geschärft, wie unterschiedlich Menschen
+                denken, fühlen und mit Herausforderungen umgehen.
               </p>
               <p className="font-medium text-foreground">
-                Mein Ziel ist nicht, vorgefertigte Antworten zu geben, sondern
-                gemeinsam zu verstehen, was bewegt, anzunehmen, was ist, und neue
-                Handlungsmöglichkeiten zu entwickeln.
+                Mein Ziel ist es nicht, vorgefertigte Antworten oder Lösungswege
+                vorzugeben, sondern gemeinsam zu verstehen, was bewegt,
+                anzunehmen, was ist, und daraus neue Handlungsmöglichkeiten zu
+                entwickeln.
               </p>
             </div>
           </div>
