@@ -38,7 +38,7 @@ export function Hero() {
         <div className="relative aspect-[4/3] w-full overflow-hidden bg-beige/60">
           <Image
             src="/images/weitsinn-hero.jpg"
-            alt="Atmosphärisches Foto – Natur, Licht und Weite"
+            alt="Landschaft bei Weite und Licht – atmosphärisches Hero-Foto von WeitSinn"
             fill
             priority
             sizes="(min-width: 1024px) 45vw, 100vw"

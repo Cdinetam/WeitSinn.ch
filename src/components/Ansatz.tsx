@@ -13,20 +13,16 @@ export function Ansatz() {
 
         <div className="max-w-xl space-y-6 text-[1.05rem] leading-relaxed text-foreground-muted">
           <p>
-            Im Mittelpunkt steht wissenschaftlich fundierte Psychologie –
-            ergänzt durch philosophische Reflexion, ressourcen- und
-            lösungsorientierte Ansätze sowie die Stärkung von Resilienz und
-            Selbstwirksamkeit.
+            Die Beratung verbindet wissenschaftlich fundierte Psychologie mit
+            philosophischer Reflexion sowie ressourcen- und lösungsorientierten
+            Ansätzen. Im Vordergrund stehen Klarheit, Resilienz und konkrete
+            nächste Schritte.
           </p>
           <p>
             Es geht nicht darum, Probleme endlos zu analysieren. Gemeinsam
-            verstehen wir, was Sie bewegt, öffnen neue Perspektiven und
-            entwickeln konkrete Handlungsmöglichkeiten für Ihren Weg.
-          </p>
-          <p>
-            Die Beratung bleibt klar psychologisch ausgerichtet: professionell,
-            respektvoll und ohne Esoterik – mit Raum für Ihre Fragen und Ihre
-            Eigenverantwortung.
+            verstehen wir, was Sie bewegt, nehmen an, was ist, und entwickeln
+            Handlungsmöglichkeiten, die zu Ihrer Situation passen – ruhig,
+            respektvoll und auf Augenhöhe.
           </p>
         </div>
       </div>
