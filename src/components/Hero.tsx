@@ -1,4 +1,4 @@
-import { ImagePlaceholder } from "./ImagePlaceholder";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -35,11 +35,16 @@ export function Hero() {
       </div>
 
       <div className="fade-up-delayed">
-        <ImagePlaceholder
-          label="Atmosphärisches Foto – Natur, Licht, Weite oder ruhige Architektur"
-          aspect="landscape"
-          className="w-full"
-        />
+        <div className="relative aspect-[4/3] w-full overflow-hidden bg-beige/60">
+          <Image
+            src="/images/weitsinn-hero.jpg"
+            alt="Atmosphärisches Foto – Natur, Licht und Weite"
+            fill
+            priority
+            sizes="(min-width: 1024px) 45vw, 100vw"
+            className="object-cover object-center"
+          />
+        </div>
       </div>
     </section>
   );

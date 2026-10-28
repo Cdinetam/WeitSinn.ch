@@ -1,4 +1,4 @@
-import { ImagePlaceholder } from "./ImagePlaceholder";
+import Image from "next/image";
 
 export function UeberMich() {
   return (
@@ -9,11 +9,15 @@ export function UeberMich() {
         </p>
 
         <div className="grid items-start gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
-          <ImagePlaceholder
-            label="Porträt Tam Nguyen"
-            aspect="portrait"
-            className="mx-auto w-full max-w-sm lg:mx-0"
-          />
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden bg-beige/60 lg:mx-0">
+            <Image
+              src="/images/weitsinn-portrait.jpg"
+              alt="Porträt Tam Nguyen"
+              fill
+              sizes="(min-width: 1024px) 28vw, (min-width: 640px) 50vw, 90vw"
+              className="object-cover object-[center_20%]"
+            />
+          </div>
 
           <div className="max-w-xl">
             <h2 className="font-serif text-3xl tracking-tight text-green sm:text-4xl">
