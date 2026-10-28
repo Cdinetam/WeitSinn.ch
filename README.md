@@ -36,5 +36,5 @@ Beliebiges Node-Hosting mit Next.js-Support (z. B. Vercel). Domain später auf W
 ## Inhaltshinweise
 
 - Impressum: `/impressum` · Datenschutz: `/datenschutz`
-- Honorar: CHF 180.– / 60 Minuten (Selfzahler)
+- Honorar: CHF 180.– / 60 Minuten (Selbstzahler)
 - SEO: Canonical `https://www.weitsinn.ch`, `sitemap.xml`, `robots.txt`

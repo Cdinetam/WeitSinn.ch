@@ -9,7 +9,7 @@ export function Honorar() {
 
           <div className="mt-12 border-y border-line py-12">
             <p className="text-sm tracking-wide text-foreground-muted">
-              Psychologische Einzelberatung · Selfzahler
+              Psychologische Einzelberatung · Selbstzahler
             </p>
             <p className="mt-4 font-serif text-3xl tracking-tight text-green sm:text-4xl">
               CHF 180.– / 60 Minuten

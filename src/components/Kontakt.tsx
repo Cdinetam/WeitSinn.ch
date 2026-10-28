@@ -16,6 +16,9 @@ export function Kontakt() {
           </p>
 
           <div className="mt-10 space-y-4">
+            <p className="text-sm tracking-wide text-foreground-muted">
+              Beratungssprache: Deutsch und Englisch.
+            </p>
             <a
               href="mailto:kontakt@weitsinn.ch"
               className="inline-flex items-center border border-green bg-green px-6 py-3 text-sm tracking-wide text-white transition-colors hover:border-sage-deep hover:bg-sage-deep"
