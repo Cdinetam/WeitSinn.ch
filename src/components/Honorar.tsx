@@ -12,7 +12,7 @@ export function Honorar() {
               Psychologische Einzelberatung · Selbstzahler
             </p>
             <p className="mt-4 font-serif text-3xl tracking-tight text-green sm:text-4xl">
-              CHF 180.– / 60 Minuten
+              CHF 180.– / 60 Minuten*
             </p>
             <p className="mx-auto mt-5 max-w-md text-sm leading-relaxed text-foreground-muted">
               * Je nach Police kann eine Zusatzversicherung Leistungen anteilig
