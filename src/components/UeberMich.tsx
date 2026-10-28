@@ -35,8 +35,8 @@ export function UeberMich() {
                 Psychologie.
               </p>
               <p>
-                Über viele Jahre habe ich Menschen und Teams begleitet – in
-                Unternehmen ebenso wie bei persönlichen Anliegen, auch in
+                Über viele Jahre habe ich Menschen und Teams in Unternehmen
+                ebenso wie bei persönlichen Anliegen begleitet, auch in
                 internationalen und interkulturellen Kontexten. Diese Erfahrungen
                 haben meinen Blick dafür geschärft, wie unterschiedlich Menschen
                 denken, fühlen und mit Herausforderungen umgehen.
