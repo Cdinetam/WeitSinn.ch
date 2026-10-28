@@ -12,7 +12,7 @@ export function Honorar() {
               Psychologische Einzelberatung
             </p>
             <p className="mt-4 font-serif text-3xl tracking-tight text-green sm:text-4xl">
-              CHF 160.– / 60 Minuten
+              CHF 180.– / 60 Minuten
             </p>
           </div>
 

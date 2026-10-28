@@ -10,21 +10,11 @@ export function Footer() {
         </div>
 
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-foreground-muted">
-          <a
-            href="#impressum"
-            className="transition-colors hover:text-green"
-            id="impressum"
-          >
+          <a href="#impressum" className="transition-colors hover:text-green">
             Impressum
-            <span className="ml-1 text-xs text-sage">(noch zu ergänzen)</span>
           </a>
-          <a
-            href="#datenschutz"
-            className="transition-colors hover:text-green"
-            id="datenschutz"
-          >
+          <a href="#datenschutz" className="transition-colors hover:text-green">
             Datenschutz
-            <span className="ml-1 text-xs text-sage">(noch zu ergänzen)</span>
           </a>
         </div>
 

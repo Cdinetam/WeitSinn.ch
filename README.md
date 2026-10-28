@@ -35,5 +35,5 @@ Beliebiges Node-Hosting mit Next.js-Support (z. B. Vercel). Domain später auf W
 
 ## Inhaltshinweise
 
-- Bilder und E-Mail sind als Platzhalter markiert und leicht austauschbar.
-- Impressum und Datenschutz sind als «noch zu ergänzen» ausgewiesen.
+- Porträtfoto und E-Mail sind als Platzhalter markiert und leicht austauschbar.
+- Impressum und Datenschutz sind auf der One-Page als Abschnitte hinterlegt.
