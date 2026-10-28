@@ -31,6 +31,15 @@ export function Kontakt() {
                 kontakt@weitsinn.ch
               </a>
             </p>
+            <p className="text-sm text-foreground-muted">
+              Telefon:{" "}
+              <a
+                href="tel:+41786868089"
+                className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
+              >
+                +41 78 686 80 89
+              </a>
+            </p>
             <p className="mx-auto max-w-md text-sm leading-relaxed text-foreground-muted">
               Bitte senden Sie keine vertraulichen Gesundheitsangaben unverschlüsselt
               per E-Mail. Für sensible Inhalte vereinbaren wir einen geeigneten

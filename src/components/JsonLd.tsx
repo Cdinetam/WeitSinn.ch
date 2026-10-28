@@ -7,6 +7,7 @@ export function JsonLd() {
       "Psychologische Beratung in Zürich von Tam Nguyen, Psychologe lic. phil.",
     url: "https://www.weitsinn.ch",
     email: "kontakt@weitsinn.ch",
+    telephone: "+41-78-686-80-89",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Albisriederstrasse 248",

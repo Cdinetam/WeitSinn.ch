@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function DatenschutzPage() {
   return (
-    <LegalPage title="Datenschutz">
+    <LegalPage title="Datenschutz" summary="Datenschutzerklärung anzeigen">
       <p>
         Diese Datenschutzerklärung informiert über den Umgang mit Personendaten
         im Zusammenhang mit der Website WeitSinn.ch (psychologische Beratung,
@@ -37,6 +37,14 @@ export default function DatenschutzPage() {
           >
             kontakt@weitsinn.ch
           </a>
+          <br />
+          Telefon:{" "}
+          <a
+            href="tel:+41786868089"
+            className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
+          >
+            +41 78 686 80 89
+          </a>
         </p>
       </section>
 
@@ -56,11 +64,10 @@ export default function DatenschutzPage() {
           Kontaktanfragen
         </h2>
         <p className="mt-3">
-          Wenn Sie per E-Mail Kontakt aufnehmen, werden die von Ihnen
-          mitgeteilten Angaben (insbesondere E-Mail-Adresse, Name und Inhalt der
-          Nachricht) zur Bearbeitung Ihrer Anfrage und für die damit
-          zusammenhängende Korrespondenz verarbeitet. Bitte senden Sie keine
-          vertraulichen Gesundheitsangaben unverschlüsselt per E-Mail.
+          Wenn Sie per E-Mail oder Telefon Kontakt aufnehmen, werden die von
+          Ihnen mitgeteilten Angaben zur Bearbeitung Ihrer Anfrage und für die
+          damit zusammenhängende Korrespondenz verarbeitet. Bitte senden Sie
+          keine vertraulichen Gesundheitsangaben unverschlüsselt per E-Mail.
         </p>
         <p className="mt-3">
           Besonders schützenswerte Personendaten (z.&nbsp;B. Gesundheitsdaten)
