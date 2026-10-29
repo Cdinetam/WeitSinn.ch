@@ -1,18 +1,21 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 
-export function UeberMich() {
+export async function UeberMich() {
+  const t = await getTranslations("UeberMich");
+
   return (
     <section id="ueber-mich" className="scroll-mt-24 border-t border-line bg-background-soft">
       <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-28 lg:px-10">
         <p className="mb-10 text-sm tracking-[0.16em] text-sage-deep uppercase">
-          Über mich
+          {t("eyebrow")}
         </p>
 
         <div className="grid items-start gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
           <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden bg-beige/60 lg:mx-0">
             <Image
               src="/images/weitsinn-portrait.jpg"
-              alt="Tam Nguyen, Psychologe lic. phil., Porträt"
+              alt={t("imageAlt")}
               fill
               sizes="(min-width: 1024px) 28vw, (min-width: 640px) 50vw, 90vw"
               className="object-cover object-[center_20%]"
@@ -24,39 +27,22 @@ export function UeberMich() {
               Tam Nguyen
             </h2>
             <p className="mt-3 text-sm tracking-wide text-foreground-muted">
-              Psychologe lic. phil. | Executive Coach
+              {t("role")}
             </p>
 
             <div className="mt-8 space-y-5 leading-relaxed text-foreground-muted">
+              <p>{t("p1")}</p>
+              <p>{t("p2")}</p>
+              <p className="font-medium text-foreground">{t("p3")}</p>
               <p>
-                Mein Studium der Psychologie an der Universität Bern habe ich mit
-                dem Lizentiat abgeschlossen. Meine Schwerpunkte lagen in der
-                Arbeits- und Organisationspsychologie sowie der Klinischen
-                Psychologie.
-              </p>
-              <p>
-                Über viele Jahre habe ich Menschen und Teams in Unternehmen
-                ebenso wie bei persönlichen Anliegen begleitet, auch in
-                internationalen und interkulturellen Kontexten. Diese Erfahrungen
-                haben meinen Blick dafür geschärft, wie unterschiedlich Menschen
-                denken, fühlen und mit Herausforderungen umgehen.
-              </p>
-              <p className="font-medium text-foreground">
-                Mein Ziel ist es nicht, vorgefertigte Antworten oder Lösungswege
-                vorzugeben, sondern gemeinsam zu verstehen, was bewegt,
-                anzunehmen, was ist, und daraus neue Handlungsmöglichkeiten zu
-                entwickeln.
-              </p>
-              <p>
-                Für Führungskräfte: Executive Coaching und die Begleitung von
-                Geschäftsleitungen biete ich über{" "}
+                {t("tavyroBefore")}{" "}
                 <a
                   href="https://tavyro.ch"
                   className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
                 >
                   TaVyro
                 </a>{" "}
-                an.
+                {t("tavyroAfter")}
               </p>
             </div>
           </div>

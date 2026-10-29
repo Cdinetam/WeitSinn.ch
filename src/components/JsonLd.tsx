@@ -1,11 +1,18 @@
-export function JsonLd() {
+import { getLocale, getTranslations } from "next-intl/server";
+
+export async function JsonLd() {
+  const t = await getTranslations("JsonLd");
+  const locale = await getLocale();
+  const url =
+    locale === "de"
+      ? "https://www.weitsinn.ch"
+      : `https://www.weitsinn.ch/${locale}`;
   const data = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "WeitSinn",
-    description:
-      "Psychologische Beratung in Zürich von Tam Nguyen, Psychologe lic. phil.",
-    url: "https://www.weitsinn.ch",
+    description: t("description"),
+    url,
     email: "kontakt@weitsinn.ch",
     telephone: "+41-78-686-80-89",
     address: {

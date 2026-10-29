@@ -1,5 +1,6 @@
-import Link from "next/link";
 import type { ReactNode } from "react";
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { LegalDisclosure } from "./LegalDisclosure";
@@ -10,7 +11,9 @@ type LegalPageProps = {
   children: ReactNode;
 };
 
-export function LegalPage({ title, summary, children }: LegalPageProps) {
+export async function LegalPage({ title, summary, children }: LegalPageProps) {
+  const t = await getTranslations("Legal");
+
   return (
     <>
       <Header />
@@ -24,8 +27,7 @@ export function LegalPage({ title, summary, children }: LegalPageProps) {
           {title}
         </h1>
         <p className="mt-4 max-w-xl text-[1.05rem] leading-relaxed text-foreground-muted">
-          Der vollständige Text steht in einem aufklappbaren Bereich und kann
-          bei Bedarf wieder eingeklappt werden.
+          {t("intro")}
         </p>
         <div className="mt-10">
           <LegalDisclosure summary={summary}>{children}</LegalDisclosure>

@@ -1,6 +1,10 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 
-export function Hero() {
+export async function Hero() {
+  const t = await getTranslations("Hero");
+
   return (
     <section
       id="top"
@@ -8,29 +12,24 @@ export function Hero() {
     >
       <div className="fade-up max-w-xl">
         <p className="mb-5 text-sm tracking-[0.18em] text-sage-deep uppercase">
-          Psychologische Beratung
+          {t("eyebrow")}
         </p>
         <h1 className="font-serif text-[2.75rem] leading-[1.08] tracking-tight text-green sm:text-5xl lg:text-[3.35rem]">
           WeitSinn
         </h1>
         <p className="mt-5 font-serif text-2xl font-semibold leading-snug text-foreground sm:text-[1.7rem]">
-          Verstehen. Annehmen. Weiterkommen.
-        </p>
-        <p className="mt-2 font-serif text-xl leading-snug text-foreground-muted sm:text-[1.35rem]">
-          Understand. Embrace. Move on.
+          {t("claim")}
         </p>
         <p className="mt-7 max-w-md text-[1.05rem] leading-relaxed text-foreground-muted">
-          Psychologische Beratung für Erwachsene, die Klarheit suchen und
-          persönliche oder berufliche Fragen bewusst gestalten möchten – ruhig,
-          fundiert und auf Augenhöhe.
+          {t("intro")}
         </p>
         <div className="mt-10">
-          <a
-            href="#kontakt"
+          <Link
+            href="/#kontakt"
             className="inline-flex items-center border border-green bg-green px-6 py-3 text-sm tracking-wide text-white transition-colors hover:border-sage-deep hover:bg-sage-deep"
           >
-            Gespräch anfragen
-          </a>
+            {t("cta")}
+          </Link>
         </div>
       </div>
 
@@ -38,7 +37,7 @@ export function Hero() {
         <div className="relative aspect-[4/3] w-full overflow-hidden bg-beige/60">
           <Image
             src="/images/weitsinn-hero.jpg"
-            alt="Landschaft bei Weite und Licht – atmosphärisches Hero-Foto von WeitSinn"
+            alt={t("imageAlt")}
             fill
             priority
             sizes="(min-width: 1024px) 45vw, 100vw"

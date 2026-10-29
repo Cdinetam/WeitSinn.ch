@@ -1,0 +1,157 @@
+{
+  "Meta": {
+    "title": "WeitSinn | Psychological Counselling in Zurich",
+    "titleTemplate": "%s | WeitSinn",
+    "description": "Psychological counselling in Zurich: Understand - Embrace - Move forward. Tam Nguyen, Psychologist lic. phil. – clarity and new perspectives for a self-determined life.",
+    "ogTitle": "WeitSinn | Psychological Counselling in Zurich",
+    "ogDescription": "Psychological counselling in Zurich by Tam Nguyen, Psychologist lic. phil. Understand - Embrace - Move forward.",
+    "impressumTitle": "Legal notice",
+    "impressumDescription": "Legal notice for WeitSinn.ch – Tam Nguyen, Psychologist lic. phil., Zurich.",
+    "datenschutzTitle": "Privacy policy",
+    "datenschutzDescription": "Privacy policy for WeitSinn.ch – information on the processing of personal data."
+  },
+  "Nav": {
+    "beratung": "Counselling",
+    "ansatz": "My approach",
+    "ueberMich": "About me",
+    "honorar": "Fees",
+    "kontakt": "Contact",
+    "mainAria": "Main navigation",
+    "mobileAria": "Mobile navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu",
+    "close": "Close",
+    "languageAria": "Choose language"
+  },
+  "Hero": {
+    "eyebrow": "Psychological counselling",
+    "claim": "Understand - Embrace - Move forward.",
+    "intro": "Psychological counselling for adults seeking clarity and wishing to shape personal or professional questions consciously – calmly, soundly and on equal footing.",
+    "cta": "Request a conversation",
+    "imageAlt": "Landscape of openness and light – atmospheric hero photograph for WeitSinn"
+  },
+  "Beratung": {
+    "eyebrow": "Offer",
+    "title": "Psychological counselling",
+    "intro": "Better understand thoughts, feelings and patterns of behaviour – and derive new possibilities for action. Counselling is aimed at adults facing personal or professional challenges, a wish for change, or questions of life.",
+    "themes": {
+      "0": {
+        "title": "Clarity & orientation",
+        "text": "Consider and sort decisions, reorientation and questions of life with calm."
+      },
+      "1": {
+        "title": "Strain & resilience",
+        "text": "Understand stress and inner strain – strengthen stability and self-efficacy."
+      },
+      "2": {
+        "title": "Change & development",
+        "text": "Open new perspectives and develop your own paths for the next step."
+      },
+      "3": {
+        "title": "Meaning & values",
+        "text": "Clarify values, reflect on how you shape life, and make finding meaning concrete."
+      }
+    }
+  },
+  "Ablauf": {
+    "eyebrow": "Process",
+    "title": "How counselling works",
+    "closing": "The steps are deliberately simple. You, your questions and your pace are at the centre.",
+    "steps": {
+      "0": {
+        "title": "Contact",
+        "text": "You get in touch with no obligation. In a short exchange we clarify whether and how counselling might fit your situation."
+      },
+      "1": {
+        "title": "Understanding",
+        "text": "In conversation we jointly make sense of what moves you – thoughts, feelings, patterns and the context of your everyday life."
+      },
+      "2": {
+        "title": "Your own paths",
+        "text": "From this, new perspectives and concrete possibilities for action emerge that you can pursue at your own pace."
+      }
+    }
+  },
+  "Ansatz": {
+    "eyebrow": "My approach",
+    "title": "Understand what moves you. Shape what is possible.",
+    "p1": "Counselling connects scientifically grounded psychology with philosophical reflection as well as resource- and solution-oriented approaches. Clarity, resilience and concrete next steps take centre stage.",
+    "p2": "It is not about analysing problems endlessly. Together we understand what moves you, embrace what is, and develop possibilities for action that fit your situation – calmly, respectfully and on equal footing.",
+    "whyTitle": "Why WeitSinn?",
+    "whyP1Before": "As early as 1825, Johann Wolfgang von Goethe contrasted the notions of",
+    "whyP1Highlight": "narrowness and far-sightedness (Beschränktheit und Weitsinn)",
+    "whyP1After": "in his work «Serbische Lieder».",
+    "whyP2": "For me, Weitsinn means thinking beyond one’s own horizon, taking different perspectives and questioning familiar patterns of thought.",
+    "whyP3": "This stance also shapes my psychological counselling: understand what moves you, embrace what is, and discover new possibilities for action.",
+    "whySource": "Source: Johann Wolfgang von Goethe, «Serbische Lieder» (1825)."
+  },
+  "UeberMich": {
+    "eyebrow": "About me",
+    "role": "Psychologist lic. phil. | Executive Coach",
+    "imageAlt": "Tam Nguyen, Psychologist lic. phil., portrait",
+    "p1": "I completed my studies in psychology at the University of Bern with the Lizentiat. My focus areas were work and organisational psychology as well as clinical psychology.",
+    "p2": "Over many years I have accompanied people and teams in companies as well as with personal concerns, including in international and intercultural contexts. These experiences have sharpened my eye for how differently people think, feel and deal with challenges.",
+    "p3": "My aim is not to prescribe ready-made answers or paths, but to understand together what moves you, to embrace what is, and from there to develop new possibilities for action.",
+    "tavyroBefore": "For executives: I offer executive coaching and support for management teams through",
+    "tavyroAfter": "."
+  },
+  "Honorar": {
+    "title": "Counselling & fees",
+    "label": "Individual psychological counselling · Self-payer",
+    "price": "CHF 180.– / 60 minutes*",
+    "footnote": "* Depending on your policy, supplementary insurance may reimburse services in part. Please clarify this directly with your insurer.",
+    "p1": "Counselling offers space to reflect on personal or professional challenges, gain clarity and develop your own possibilities for action.",
+    "p2": "Invoice on request. The services are not psychotherapy and are not billed through mandatory health insurance (OKP / basic insurance).",
+    "cta": "Request a conversation"
+  },
+  "Kontakt": {
+    "eyebrow": "Contact",
+    "title": "A conversation can open new perspectives.",
+    "intro": "If you sense that an exchange could be helpful, I look forward to your message. Together we clarify whether and how counselling fits your situation.",
+    "languages": "Counselling languages: Swiss German, German and English.",
+    "cta": "Get in touch",
+    "emailLabel": "Email:",
+    "phoneLabel": "Phone:",
+    "privacyNote": "Please do not send confidential health information unencrypted by email. For sensitive content we arrange a suitable setting in conversation."
+  },
+  "Footer": {
+    "role": "Tam Nguyen · Psychologist lic. phil.",
+    "impressum": "Legal notice",
+    "datenschutz": "Privacy policy",
+    "copyright": "© WeitSinn.ch"
+  },
+  "Legal": {
+    "intro": "The full text is in a collapsible section and can be closed again if needed.",
+    "impressumSummary": "Show legal notice",
+    "datenschutzSummary": "Show privacy policy",
+    "websiteLabel": "Website:",
+    "emailLabel": "Email:",
+    "phoneLabel": "Phone:",
+    "todoTitle": "Still to be completed / reviewed",
+    "todoUid": "UID / VAT details (if registration is required)",
+    "todoRegister": "Professional register / supervision – only if applicable and documented",
+    "privacyIntro": "This privacy policy informs you about the processing of personal data in connection with the website WeitSinn.ch (psychological counselling, Tam Nguyen) under the Swiss Data Protection Act (FADP).",
+    "controllerTitle": "Controller",
+    "purposeTitle": "Purpose of the website",
+    "purposeText": "The website provides information about the psychological counselling offer and enables contact. No online bookings and no online payments are offered.",
+    "contactTitle": "Contact enquiries",
+    "contactP1": "If you contact me by email or phone, the information you provide is processed to handle your enquiry and related correspondence. Please do not send confidential health information unencrypted by email.",
+    "contactP2": "Particularly sensitive personal data (e.g. health data) are processed only insofar as you provide them voluntarily and this is necessary for the enquiry or counselling. Protecting such data is a high priority.",
+    "hostingTitle": "Hosting and server logs",
+    "hostingText": "The website is hosted on Vercel. When pages are accessed, technically necessary connection data (e.g. IP address, time, requested URL, browser and device information) may be processed in server logs insofar as this is required for operation, security and error analysis. Storage does not follow a principle of “we store nothing”, but the principle of necessity and the host’s settings.",
+    "fontsTitle": "Fonts and third parties",
+    "fontsText": "Web fonts used for display are embedded at build time and delivered via hosting. Fonts are not loaded directly from Google servers when the page is accessed. No analytics, advertising or social-media tracking tools are currently used.",
+    "cookiesTitle": "Cookies and tracking",
+    "cookiesText": "No tracking cookies are set for marketing purposes. Technically necessary hosting or browser functions may store temporary technical data.",
+    "retentionTitle": "Retention",
+    "retentionText": "Contact-related data are retained only as long as needed to handle the enquiry, any follow-up questions or statutory retention obligations.",
+    "rightsTitle": "Your rights",
+    "rightsText": "Under Swiss data protection law you have in particular the right to access, rectify and erase your personal data, as well as the right to restrict or object to processing where the legal requirements are met. Please send requests to the contact address above.",
+    "changesTitle": "Changes",
+    "changesText": "This privacy policy may be updated if the website offer or legal requirements change. The version published on this page applies."
+  },
+  "JsonLd": {
+    "description": "Psychological counselling in Zurich by Tam Nguyen, Psychologist lic. phil."
+  }
+}

@@ -1,19 +1,22 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
-
-const links = [
-  { href: "/#beratung", label: "Beratung" },
-  { href: "/#ansatz", label: "Mein Ansatz" },
-  { href: "/#ueber-mich", label: "Über mich" },
-  { href: "/#honorar", label: "Honorar" },
-  { href: "/#kontakt", label: "Kontakt" },
-] as const;
+import { Link } from "@/i18n/navigation";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function SiteHeader() {
+  const t = useTranslations("Nav");
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+
+  const links = [
+    { href: "/#beratung", label: t("beratung") },
+    { href: "/#ansatz", label: t("ansatz") },
+    { href: "/#ueber-mich", label: t("ueberMich") },
+    { href: "/#honorar", label: t("honorar") },
+    { href: "/#kontakt", label: t("kontakt") },
+  ] as const;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -37,7 +40,7 @@ export function SiteHeader() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-[4.25rem] max-w-6xl items-center justify-between px-5 sm:px-8 lg:px-10">
+      <div className="mx-auto flex h-[4.25rem] max-w-6xl items-center justify-between gap-4 px-5 sm:px-8 lg:px-10">
         <Link
           href="/#top"
           className="font-serif text-[1.55rem] leading-none tracking-tight text-green transition-opacity hover:opacity-75"
@@ -46,45 +49,51 @@ export function SiteHeader() {
           WeitSinn
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex" aria-label="Hauptnavigation">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-[0.92rem] tracking-wide text-foreground-muted transition-colors hover:text-green"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+        <div className="hidden items-center gap-8 md:flex">
+          <nav className="flex items-center gap-8" aria-label={t("mainAria")}>
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-[0.92rem] tracking-wide text-foreground-muted transition-colors hover:text-green"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+          <LanguageSwitcher />
+        </div>
 
-        <button
-          type="button"
-          className="inline-flex h-10 w-10 items-center justify-center text-green md:hidden"
-          aria-expanded={open}
-          aria-controls="mobile-nav"
-          aria-label={open ? "Menü schliessen" : "Menü öffnen"}
-          onClick={() => setOpen((value) => !value)}
-        >
-          <span className="sr-only">{open ? "Schliessen" : "Menü"}</span>
-          <span className="relative block h-3.5 w-5">
-            <span
-              className={`absolute left-0 h-px w-full bg-current transition-transform duration-300 ${
-                open ? "top-1.5 rotate-45" : "top-0"
-              }`}
-            />
-            <span
-              className={`absolute left-0 top-1.5 h-px w-full bg-current transition-opacity duration-200 ${
-                open ? "opacity-0" : "opacity-100"
-              }`}
-            />
-            <span
-              className={`absolute left-0 h-px w-full bg-current transition-transform duration-300 ${
-                open ? "top-1.5 -rotate-45" : "top-3"
-              }`}
-            />
-          </span>
-        </button>
+        <div className="flex items-center gap-3 md:hidden">
+          <LanguageSwitcher />
+          <button
+            type="button"
+            className="inline-flex h-10 w-10 items-center justify-center text-green"
+            aria-expanded={open}
+            aria-controls="mobile-nav"
+            aria-label={open ? t("closeMenu") : t("openMenu")}
+            onClick={() => setOpen((value) => !value)}
+          >
+            <span className="sr-only">{open ? t("close") : t("menu")}</span>
+            <span className="relative block h-3.5 w-5">
+              <span
+                className={`absolute left-0 h-px w-full bg-current transition-transform duration-300 ${
+                  open ? "top-1.5 rotate-45" : "top-0"
+                }`}
+              />
+              <span
+                className={`absolute left-0 top-1.5 h-px w-full bg-current transition-opacity duration-200 ${
+                  open ? "opacity-0" : "opacity-100"
+                }`}
+              />
+              <span
+                className={`absolute left-0 h-px w-full bg-current transition-transform duration-300 ${
+                  open ? "top-1.5 -rotate-45" : "top-3"
+                }`}
+              />
+            </span>
+          </button>
+        </div>
       </div>
 
       <div
@@ -93,7 +102,10 @@ export function SiteHeader() {
           open ? "block" : "hidden"
         }`}
       >
-        <nav className="mx-auto flex max-w-6xl flex-col gap-1 px-5 py-5" aria-label="Mobile Navigation">
+        <nav
+          className="mx-auto flex max-w-6xl flex-col gap-1 px-5 py-5"
+          aria-label={t("mobileAria")}
+        >
           {links.map((link) => (
             <Link
               key={link.href}

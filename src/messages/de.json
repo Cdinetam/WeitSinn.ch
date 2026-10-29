@@ -1,0 +1,157 @@
+{
+  "Meta": {
+    "title": "WeitSinn | Psychologische Beratung in Zürich",
+    "titleTemplate": "%s | WeitSinn",
+    "description": "Psychologische Beratung in Zürich: Verstehen. Annehmen. Weiterkommen. Tam Nguyen, Psychologe lic. phil. – Klarheit und neue Perspektiven für ein selbstbestimmtes Leben.",
+    "ogTitle": "WeitSinn | Psychologische Beratung in Zürich",
+    "ogDescription": "Psychologische Beratung in Zürich von Tam Nguyen, Psychologe lic. phil. Verstehen. Annehmen. Weiterkommen.",
+    "impressumTitle": "Impressum",
+    "impressumDescription": "Impressum von WeitSinn.ch – Tam Nguyen, Psychologe lic. phil., Zürich.",
+    "datenschutzTitle": "Datenschutz",
+    "datenschutzDescription": "Datenschutzerklärung von WeitSinn.ch – Informationen zum Umgang mit Personendaten."
+  },
+  "Nav": {
+    "beratung": "Beratung",
+    "ansatz": "Mein Ansatz",
+    "ueberMich": "Über mich",
+    "honorar": "Honorar",
+    "kontakt": "Kontakt",
+    "mainAria": "Hauptnavigation",
+    "mobileAria": "Mobile Navigation",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schliessen",
+    "menu": "Menü",
+    "close": "Schliessen",
+    "languageAria": "Sprache wählen"
+  },
+  "Hero": {
+    "eyebrow": "Psychologische Beratung",
+    "claim": "Verstehen. Annehmen. Weiterkommen.",
+    "intro": "Psychologische Beratung für Erwachsene, die Klarheit suchen und persönliche oder berufliche Fragen bewusst gestalten möchten – ruhig, fundiert und auf Augenhöhe.",
+    "cta": "Gespräch anfragen",
+    "imageAlt": "Landschaft bei Weite und Licht – atmosphärisches Hero-Foto von WeitSinn"
+  },
+  "Beratung": {
+    "eyebrow": "Angebot",
+    "title": "Psychologische Beratung",
+    "intro": "Gedanken, Gefühle und Verhaltensmuster besser verstehen – und daraus neue Handlungsmöglichkeiten ableiten. Die Beratung richtet sich an Erwachsene mit persönlichen oder beruflichen Herausforderungen, Veränderungswünschen und Lebensfragen.",
+    "themes": {
+      "0": {
+        "title": "Klarheit & Orientierung",
+        "text": "Entscheidungen, Neuorientierung und Lebensfragen mit Ruhe betrachten und einordnen."
+      },
+      "1": {
+        "title": "Belastung & Resilienz",
+        "text": "Stress und innere Belastung verstehen – Stabilität und Selbstwirksamkeit stärken."
+      },
+      "2": {
+        "title": "Veränderung & Entwicklung",
+        "text": "Neue Perspektiven öffnen und eigene Lösungswege für den nächsten Schritt entwickeln."
+      },
+      "3": {
+        "title": "Sinn & Werte",
+        "text": "Werte klären, Lebensgestaltung reflektieren und Sinnfindung konkret machen."
+      }
+    }
+  },
+  "Ablauf": {
+    "eyebrow": "Ablauf",
+    "title": "So läuft die Beratung ab",
+    "closing": "Die Schritte sind bewusst einfach gehalten. Im Mittelpunkt stehen Sie, Ihre Fragen und Ihr Tempo.",
+    "steps": {
+      "0": {
+        "title": "Kontakt",
+        "text": "Sie melden sich unverbindlich. Wir klären in einem kurzen Austausch, ob und wie eine Beratung zu Ihrer Situation passen könnte."
+      },
+      "1": {
+        "title": "Verstehen",
+        "text": "Im Gespräch ordnen wir gemeinsam ein, was Sie bewegt – Gedanken, Gefühle, Muster und den Kontext Ihres Alltags."
+      },
+      "2": {
+        "title": "Eigene Wege",
+        "text": "Daraus entstehen neue Perspektiven und konkrete Handlungsmöglichkeiten, die Sie in Ihrem Tempo weiterverfolgen können."
+      }
+    }
+  },
+  "Ansatz": {
+    "eyebrow": "Mein Ansatz",
+    "title": "Verstehen, was bewegt. Gestalten, was möglich ist.",
+    "p1": "Die Beratung verbindet wissenschaftlich fundierte Psychologie mit philosophischer Reflexion sowie ressourcen- und lösungsorientierten Ansätzen. Im Vordergrund stehen Klarheit, Resilienz und konkrete nächste Schritte.",
+    "p2": "Es geht nicht darum, Probleme endlos zu analysieren. Gemeinsam verstehen wir, was Sie bewegt, nehmen an, was ist, und entwickeln Handlungsmöglichkeiten, die zu Ihrer Situation passen – ruhig, respektvoll und auf Augenhöhe.",
+    "whyTitle": "Warum WeitSinn?",
+    "whyP1Before": "Bereits Johann Wolfgang von Goethe stellte 1825 in seinem Werk «Serbische Lieder» die Begriffe",
+    "whyP1Highlight": "Beschränktheit und Weitsinn",
+    "whyP1After": "einander gegenüber.",
+    "whyP2": "Für mich bedeutet Weitsinn, über den eigenen Horizont hinauszudenken, unterschiedliche Perspektiven einzunehmen und vertraute Denkmuster zu hinterfragen.",
+    "whyP3": "Diese Haltung prägt auch meine psychologische Beratung: verstehen, was bewegt, annehmen, was ist, und neue Handlungsmöglichkeiten entdecken.",
+    "whySource": "Quelle: Johann Wolfgang von Goethe, «Serbische Lieder» (1825)."
+  },
+  "UeberMich": {
+    "eyebrow": "Über mich",
+    "role": "Psychologe lic. phil. | Executive Coach",
+    "imageAlt": "Tam Nguyen, Psychologe lic. phil., Porträt",
+    "p1": "Mein Studium der Psychologie an der Universität Bern habe ich mit dem Lizentiat abgeschlossen. Meine Schwerpunkte lagen in der Arbeits- und Organisationspsychologie sowie der Klinischen Psychologie.",
+    "p2": "Über viele Jahre habe ich Menschen und Teams in Unternehmen ebenso wie bei persönlichen Anliegen begleitet, auch in internationalen und interkulturellen Kontexten. Diese Erfahrungen haben meinen Blick dafür geschärft, wie unterschiedlich Menschen denken, fühlen und mit Herausforderungen umgehen.",
+    "p3": "Mein Ziel ist es nicht, vorgefertigte Antworten oder Lösungswege vorzugeben, sondern gemeinsam zu verstehen, was bewegt, anzunehmen, was ist, und daraus neue Handlungsmöglichkeiten zu entwickeln.",
+    "tavyroBefore": "Für Führungskräfte: Executive Coaching und die Begleitung von Geschäftsleitungen biete ich über",
+    "tavyroAfter": "an."
+  },
+  "Honorar": {
+    "title": "Beratung & Honorar",
+    "label": "Psychologische Einzelberatung · Selbstzahler",
+    "price": "CHF 180.– / 60 Minuten*",
+    "footnote": "* Je nach Police kann eine Zusatzversicherung Leistungen anteilig rückerstatten. Bitte klären Sie dies direkt mit Ihrer Versicherung.",
+    "p1": "Die Beratung bietet Raum, persönliche oder berufliche Herausforderungen zu reflektieren, Klarheit zu gewinnen und eigene Handlungsmöglichkeiten zu entwickeln.",
+    "p2": "Rechnung auf Wunsch. Die Leistungen sind keine Psychotherapie und werden nicht über die obligatorische Krankenpflegeversicherung (OKP / Grundversicherung) abgerechnet.",
+    "cta": "Gespräch anfragen"
+  },
+  "Kontakt": {
+    "eyebrow": "Kontakt",
+    "title": "Ein Gespräch kann neue Perspektiven eröffnen.",
+    "intro": "Wenn Sie spüren, dass ein Austausch hilfreich sein könnte, freue ich mich über Ihre Nachricht. Wir klären gemeinsam, ob und wie eine Beratung zu Ihrer Situation passt.",
+    "languages": "Beratungssprache: Schweizerdeutsch, Deutsch und Englisch.",
+    "cta": "Kontakt aufnehmen",
+    "emailLabel": "E-Mail:",
+    "phoneLabel": "Telefon:",
+    "privacyNote": "Bitte senden Sie keine vertraulichen Gesundheitsangaben unverschlüsselt per E-Mail. Für sensible Inhalte vereinbaren wir einen geeigneten Rahmen im Gespräch."
+  },
+  "Footer": {
+    "role": "Tam Nguyen · Psychologe lic. phil.",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "copyright": "© WeitSinn.ch"
+  },
+  "Legal": {
+    "intro": "Der vollständige Text steht in einem aufklappbaren Bereich und kann bei Bedarf wieder eingeklappt werden.",
+    "impressumSummary": "Impressum anzeigen",
+    "datenschutzSummary": "Datenschutzerklärung anzeigen",
+    "websiteLabel": "Website:",
+    "emailLabel": "E-Mail:",
+    "phoneLabel": "Telefon:",
+    "todoTitle": "Noch zu ergänzen / prüfen",
+    "todoUid": "UID / MWST-Angaben (falls registrierungspflichtig)",
+    "todoRegister": "Berufsregister / Aufsicht – nur falls zutreffend und belegt",
+    "privacyIntro": "Diese Datenschutzerklärung informiert über den Umgang mit Personendaten im Zusammenhang mit der Website WeitSinn.ch (psychologische Beratung, Tam Nguyen) nach dem Schweizer Datenschutzgesetz (DSG).",
+    "controllerTitle": "Verantwortliche Person",
+    "purposeTitle": "Zweck der Website",
+    "purposeText": "Die Website dient der Information über das Angebot der psychologischen Beratung sowie der Kontaktaufnahme. Es werden keine Online-Buchungen und keine Online-Bezahlungen angeboten.",
+    "contactTitle": "Kontaktanfragen",
+    "contactP1": "Wenn Sie per E-Mail oder Telefon Kontakt aufnehmen, werden die von Ihnen mitgeteilten Angaben zur Bearbeitung Ihrer Anfrage und für die damit zusammenhängende Korrespondenz verarbeitet. Bitte senden Sie keine vertraulichen Gesundheitsangaben unverschlüsselt per E-Mail.",
+    "contactP2": "Besonders schützenswerte Personendaten (z. B. Gesundheitsdaten) werden nur verarbeitet, soweit Sie diese freiwillig mitteilen und dies für die Anfrage oder die Beratung erforderlich ist. Der Schutz solcher Daten hat hohe Priorität.",
+    "hostingTitle": "Hosting und Server-Logs",
+    "hostingText": "Die Website wird über Vercel gehostet. Beim Aufruf der Seiten können technisch notwendige Verbindungsdaten (z. B. IP-Adresse, Zeitpunkt, aufgerufene URL, Browser- und Geräteinformationen) in Server-Logs verarbeitet werden, soweit dies für Betrieb, Sicherheit und Fehleranalyse erforderlich ist. Die Speicherung erfolgt nicht nach dem Grundsatz «wir speichern nichts», sondern nach dem Prinzip der Erforderlichkeit und den Einstellungen des Hosting-Anbieters.",
+    "fontsTitle": "Schriften und Drittanbieter",
+    "fontsText": "Für die Darstellung werden Webfonts verwendet, die beim Build der Website eingebunden und über das Hosting ausgeliefert werden. Es findet beim Seitenaufruf kein Laden von Schriftarten direkt von Google-Servern statt. Es werden derzeit keine Analyse-, Werbe- oder Social-Media-Tracking-Tools eingesetzt.",
+    "cookiesTitle": "Cookies und Tracking",
+    "cookiesText": "Es werden keine Tracking-Cookies zu Marketingzwecken gesetzt. Technisch notwendige Funktionen des Hostings oder des Browsers können temporäre technische Daten speichern.",
+    "retentionTitle": "Aufbewahrung",
+    "retentionText": "Kontaktbezogene Daten werden so lange aufbewahrt, wie es für die Bearbeitung der Anfrage, allfällige Nachfragen oder gesetzliche Aufbewahrungspflichten erforderlich ist.",
+    "rightsTitle": "Ihre Rechte",
+    "rightsText": "Sie haben nach Massgabe des Schweizer Datenschutzrechts insbesondere das Recht auf Auskunft, Berichtigung und Löschung Ihrer Personendaten sowie das Recht, die Bearbeitung einzuschränken oder ihr zu widersprechen, soweit die gesetzlichen Voraussetzungen erfüllt sind. Anfragen richten Sie bitte an die oben genannte Kontaktadresse.",
+    "changesTitle": "Änderungen",
+    "changesText": "Diese Datenschutzerklärung kann angepasst werden, wenn sich das Angebot der Website oder rechtliche Anforderungen ändern. Es gilt die jeweils auf dieser Seite veröffentlichte Fassung."
+  },
+  "JsonLd": {
+    "description": "Psychologische Beratung in Zürich von Tam Nguyen, Psychologe lic. phil."
+  }
+}
