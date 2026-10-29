@@ -1,0 +1,157 @@
+{
+  "Meta": {
+    "title": "WeitSinn | Conseil psychologique à Zurich",
+    "titleTemplate": "%s | WeitSinn",
+    "description": "Conseil psychologique à Zurich : Comprendre. Accueillir. Avancer. Tam Nguyen, psychologue lic. phil. – clarté et nouvelles perspectives pour une vie autodéterminée.",
+    "ogTitle": "WeitSinn | Conseil psychologique à Zurich",
+    "ogDescription": "Conseil psychologique à Zurich par Tam Nguyen, psychologue lic. phil. Comprendre. Accueillir. Avancer.",
+    "impressumTitle": "Mentions légales",
+    "impressumDescription": "Mentions légales de WeitSinn.ch – Tam Nguyen, psychologue lic. phil., Zurich.",
+    "datenschutzTitle": "Protection des données",
+    "datenschutzDescription": "Déclaration de protection des données de WeitSinn.ch – informations sur le traitement des données personnelles."
+  },
+  "Nav": {
+    "beratung": "Conseil",
+    "ansatz": "Mon approche",
+    "ueberMich": "À propos",
+    "honorar": "Honoraires",
+    "kontakt": "Contact",
+    "mainAria": "Navigation principale",
+    "mobileAria": "Navigation mobile",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menu": "Menu",
+    "close": "Fermer",
+    "languageAria": "Choisir la langue"
+  },
+  "Hero": {
+    "eyebrow": "Conseil psychologique",
+    "claim": "Comprendre. Accueillir. Avancer.",
+    "intro": "Conseil psychologique pour les adultes qui cherchent de la clarté et souhaitent aborder consciemment des questions personnelles ou professionnelles – avec calme, solidité et sur un pied d’égalité.",
+    "cta": "Demander un entretien",
+    "imageAlt": "Paysage d’ouverture et de lumière – photo atmosphérique du hero WeitSinn"
+  },
+  "Beratung": {
+    "eyebrow": "Offre",
+    "title": "Conseil psychologique",
+    "intro": "Mieux comprendre pensées, sentiments et schémas de comportement – et en dériver de nouvelles possibilités d’action. Le conseil s’adresse aux adultes confrontés à des défis personnels ou professionnels, à un souhait de changement ou à des questions de vie.",
+    "themes": {
+      "0": {
+        "title": "Clarté & orientation",
+        "text": "Considérer et classer avec calme décisions, réorientation et questions de vie."
+      },
+      "1": {
+        "title": "Charge & résilience",
+        "text": "Comprendre le stress et la charge intérieure – renforcer stabilité et efficacité personnelle."
+      },
+      "2": {
+        "title": "Changement & développement",
+        "text": "Ouvrir de nouvelles perspectives et développer vos propres chemins pour l’étape suivante."
+      },
+      "3": {
+        "title": "Sens & valeurs",
+        "text": "Clarifier les valeurs, réfléchir à la façon de façonner sa vie et rendre concrète la recherche de sens."
+      }
+    }
+  },
+  "Ablauf": {
+    "eyebrow": "Déroulement",
+    "title": "Comment se déroule le conseil",
+    "closing": "Les étapes sont volontairement simples. Vous, vos questions et votre rythme sont au centre.",
+    "steps": {
+      "0": {
+        "title": "Contact",
+        "text": "Vous prenez contact sans engagement. Lors d’un bref échange, nous clarifions si et comment un conseil pourrait convenir à votre situation."
+      },
+      "1": {
+        "title": "Comprendre",
+        "text": "Dans l’entretien, nous mettons ensemble en ordre ce qui vous anime – pensées, sentiments, schémas et le contexte de votre quotidien."
+      },
+      "2": {
+        "title": "Vos propres chemins",
+        "text": "Il en résulte de nouvelles perspectives et des possibilités d’action concrètes que vous pouvez poursuivre à votre rythme."
+      }
+    }
+  },
+  "Ansatz": {
+    "eyebrow": "Mon approche",
+    "title": "Comprendre ce qui anime. Façonner ce qui est possible.",
+    "p1": "Le conseil relie une psychologie fondée scientifiquement à une réflexion philosophique ainsi qu’à des approches orientées ressources et solutions. Clarté, résilience et prochaines étapes concrètes sont au premier plan.",
+    "p2": "Il ne s’agit pas d’analyser les problèmes sans fin. Ensemble, nous comprenons ce qui vous anime, accueillons ce qui est, et développons des possibilités d’action adaptées à votre situation – avec calme, respect et sur un pied d’égalité.",
+    "whyTitle": "Pourquoi WeitSinn ?",
+    "whyP1Before": "Dès 1825, Johann Wolfgang von Goethe a opposé dans son œuvre « Serbische Lieder » les notions de",
+    "whyP1Highlight": "étroitesse et d’ouverture d’esprit (Beschränktheit und Weitsinn)",
+    "whyP1After": ".",
+    "whyP2": "Pour moi, Weitsinn signifie penser au-delà de son propre horizon, adopter différentes perspectives et remettre en question des schémas de pensée familiers.",
+    "whyP3": "Cette attitude façonne aussi mon conseil psychologique : comprendre ce qui anime, accueillir ce qui est, et découvrir de nouvelles possibilités d’action.",
+    "whySource": "Source : Johann Wolfgang von Goethe, « Serbische Lieder » (1825)."
+  },
+  "UeberMich": {
+    "eyebrow": "À propos",
+    "role": "Psychologue lic. phil. | Executive Coach",
+    "imageAlt": "Tam Nguyen, psychologue lic. phil., portrait",
+    "p1": "J’ai achevé mes études de psychologie à l’Université de Berne avec le Lizentiat. Mes domaines de spécialisation étaient la psychologie du travail et des organisations ainsi que la psychologie clinique.",
+    "p2": "Pendant de nombreuses années, j’ai accompagné des personnes et des équipes en entreprise comme dans des préoccupations personnelles, y compris dans des contextes internationaux et interculturels. Ces expériences ont affiné mon regard sur la diversité des façons dont les personnes pensent, ressentent et font face aux défis.",
+    "p3": "Mon but n’est pas de fournir des réponses ou des chemins tout faits, mais de comprendre ensemble ce qui anime, d’accueillir ce qui est, et d’en développer de nouvelles possibilités d’action.",
+    "tavyroBefore": "Pour les cadres : le coaching exécutif et l’accompagnement de directions générales, je les propose via",
+    "tavyroAfter": "."
+  },
+  "Honorar": {
+    "title": "Conseil & honoraires",
+    "label": "Conseil psychologique individuel · Paiement privé",
+    "price": "CHF 180.– / 60 minutes*",
+    "footnote": "* Selon la police, une assurance complémentaire peut rembourser partiellement les prestations. Veuillez clarifier cela directement auprès de votre assurance.",
+    "p1": "Le conseil offre un espace pour réfléchir à des défis personnels ou professionnels, gagner en clarté et développer ses propres possibilités d’action.",
+    "p2": "Facture sur demande. Les prestations ne constituent pas une psychothérapie et ne sont pas facturées via l’assurance obligatoire des soins (AOS / assurance de base).",
+    "cta": "Demander un entretien"
+  },
+  "Kontakt": {
+    "eyebrow": "Contact",
+    "title": "Un entretien peut ouvrir de nouvelles perspectives.",
+    "intro": "Si vous sentez qu’un échange pourrait être utile, je me réjouis de votre message. Nous clarifions ensemble si et comment un conseil convient à votre situation.",
+    "languages": "Langues de conseil : suisse allemand, allemand et anglais.",
+    "cta": "Prendre contact",
+    "emailLabel": "E-mail :",
+    "phoneLabel": "Téléphone :",
+    "privacyNote": "Veuillez ne pas envoyer d’informations de santé confidentielles non chiffrées par e-mail. Pour des contenus sensibles, nous convenons d’un cadre adapté lors de l’entretien."
+  },
+  "Footer": {
+    "role": "Tam Nguyen · Psychologue lic. phil.",
+    "impressum": "Mentions légales",
+    "datenschutz": "Protection des données",
+    "copyright": "© WeitSinn.ch"
+  },
+  "Legal": {
+    "intro": "Le texte complet se trouve dans une section repliable et peut être refermé si besoin.",
+    "impressumSummary": "Afficher les mentions légales",
+    "datenschutzSummary": "Afficher la déclaration de protection des données",
+    "websiteLabel": "Site web :",
+    "emailLabel": "E-mail :",
+    "phoneLabel": "Téléphone :",
+    "todoTitle": "Encore à compléter / vérifier",
+    "todoUid": "IDE / mentions TVA (si une inscription est requise)",
+    "todoRegister": "Registre professionnel / surveillance – uniquement si applicable et documenté",
+    "privacyIntro": "La présente déclaration informe sur le traitement des données personnelles en lien avec le site WeitSinn.ch (conseil psychologique, Tam Nguyen) selon la loi suisse sur la protection des données (LPD).",
+    "controllerTitle": "Personne responsable",
+    "purposeTitle": "Finalité du site",
+    "purposeText": "Le site sert à informer sur l’offre de conseil psychologique et à permettre la prise de contact. Aucune réservation en ligne ni paiement en ligne n’est proposé.",
+    "contactTitle": "Demandes de contact",
+    "contactP1": "Si vous prenez contact par e-mail ou téléphone, les informations que vous communiquez sont traitées pour traiter votre demande et la correspondance associée. Veuillez ne pas envoyer d’informations de santé confidentielles non chiffrées par e-mail.",
+    "contactP2": "Les données personnelles particulièrement dignes de protection (p. ex. données de santé) ne sont traitées que dans la mesure où vous les communiquez librement et où cela est nécessaire pour la demande ou le conseil. La protection de ces données a une priorité élevée.",
+    "hostingTitle": "Hébergement et journaux serveur",
+    "hostingText": "Le site est hébergé via Vercel. Lors de l’accès aux pages, des données de connexion techniquement nécessaires (p. ex. adresse IP, horodatage, URL consultée, informations navigateur et appareil) peuvent être traitées dans des journaux serveur, dans la mesure où cela est requis pour l’exploitation, la sécurité et l’analyse des erreurs. Le stockage ne suit pas le principe « nous ne stockons rien », mais le principe de nécessité et les paramètres de l’hébergeur.",
+    "fontsTitle": "Polices et tiers",
+    "fontsText": "Les polices web utilisées pour l’affichage sont intégrées lors du build et livrées via l’hébergement. Aucun chargement de polices directement depuis les serveurs Google n’a lieu lors de l’accès à la page. Aucun outil d’analyse, de publicité ou de suivi des médias sociaux n’est actuellement utilisé.",
+    "cookiesTitle": "Cookies et suivi",
+    "cookiesText": "Aucun cookie de suivi n’est déposé à des fins marketing. Des fonctions techniquement nécessaires de l’hébergement ou du navigateur peuvent stocker des données techniques temporaires.",
+    "retentionTitle": "Conservation",
+    "retentionText": "Les données liées au contact sont conservées aussi longtemps que nécessaire pour traiter la demande, d’éventuelles questions de suivi ou des obligations légales de conservation.",
+    "rightsTitle": "Vos droits",
+    "rightsText": "Selon le droit suisse de la protection des données, vous disposez notamment d’un droit d’accès, de rectification et d’effacement de vos données personnelles, ainsi que du droit de restreindre le traitement ou de vous y opposer lorsque les conditions légales sont remplies. Veuillez adresser vos demandes à l’adresse de contact ci-dessus.",
+    "changesTitle": "Modifications",
+    "changesText": "La présente déclaration peut être adaptée si l’offre du site ou les exigences légales changent. La version publiée sur cette page fait foi."
+  },
+  "JsonLd": {
+    "description": "Conseil psychologique à Zurich par Tam Nguyen, psychologue lic. phil."
+  }
+}

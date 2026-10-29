@@ -1,16 +1,42 @@
 import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { LegalPage } from "@/components/LegalPage";
 
-export const metadata: Metadata = {
-  title: "Impressum",
-  description:
-    "Impressum von WeitSinn.ch – Tam Nguyen, Psychologe lic. phil., Zürich.",
-  alternates: { canonical: "/impressum" },
+const siteUrl = "https://www.weitsinn.ch";
+
+type Props = {
+  params: Promise<{ locale: string }>;
 };
 
-export default function ImpressumPage() {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Meta" });
+  const path = locale === "de" ? "/impressum" : `/${locale}/impressum`;
+  const languages: Record<string, string> = {
+    de: `${siteUrl}/impressum`,
+    en: `${siteUrl}/en/impressum`,
+    fr: `${siteUrl}/fr/impressum`,
+    "x-default": `${siteUrl}/impressum`,
+  };
+
+  return {
+    title: t("impressumTitle"),
+    description: t("impressumDescription"),
+    alternates: {
+      canonical: path,
+      languages,
+    },
+  };
+}
+
+export default async function ImpressumPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("Legal");
+  const meta = await getTranslations("Meta");
+
   return (
-    <LegalPage title="Impressum" summary="Impressum anzeigen">
+    <LegalPage title={meta("impressumTitle")} summary={t("impressumSummary")}>
       <div>
         <p className="font-medium text-foreground">Tam Nguyen</p>
         <p>Psychologe lic. phil.</p>
@@ -23,7 +49,7 @@ export default function ImpressumPage() {
 
       <div>
         <p>
-          Website:{" "}
+          {t("websiteLabel")}{" "}
           <a
             href="https://www.weitsinn.ch"
             className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
@@ -32,7 +58,7 @@ export default function ImpressumPage() {
           </a>
         </p>
         <p className="mt-3">
-          E-Mail:{" "}
+          {t("emailLabel")}{" "}
           <a
             href="mailto:kontakt@weitsinn.ch"
             className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
@@ -41,7 +67,7 @@ export default function ImpressumPage() {
           </a>
         </p>
         <p className="mt-3">
-          Telefon:{" "}
+          {t("phoneLabel")}{" "}
           <a
             href="tel:+41786868089"
             className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
@@ -52,10 +78,10 @@ export default function ImpressumPage() {
       </div>
 
       <div className="border-t border-line pt-8 text-sm">
-        <p className="font-medium text-foreground">Noch zu ergänzen / prüfen</p>
+        <p className="font-medium text-foreground">{t("todoTitle")}</p>
         <ul className="mt-3 list-disc space-y-1 pl-5">
-          <li>UID / MWST-Angaben (falls registrierungspflichtig)</li>
-          <li>Berufsregister / Aufsicht – nur falls zutreffend und belegt</li>
+          <li>{t("todoUid")}</li>
+          <li>{t("todoRegister")}</li>
         </ul>
       </div>
     </LegalPage>
