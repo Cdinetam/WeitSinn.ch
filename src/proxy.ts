@@ -3,9 +3,9 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { routing } from "./i18n/routing";
 
-const intlMiddleware = createMiddleware(routing);
+const handleI18n = createMiddleware(routing);
 
-export function proxy(request: NextRequest) {
+export default function proxy(request: NextRequest) {
   const host = request.headers.get("host") ?? "";
   if (host === "weitsinn.ch") {
     const url = request.nextUrl.clone();
@@ -13,9 +13,10 @@ export function proxy(request: NextRequest) {
     url.protocol = "https";
     return NextResponse.redirect(url, 308);
   }
-  return intlMiddleware(request);
+  return handleI18n(request);
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\..*).*)"],
+  // Match pages only; skip API, Next internals, Vercel internals, and static files.
+  matcher: ["/((?!api|trpc|_next|_vercel|.*\\..*).*)"],
 };
