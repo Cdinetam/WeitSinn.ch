@@ -47,6 +47,17 @@ export function UeberMich() {
                 anzunehmen, was ist, und daraus neue Handlungsmöglichkeiten zu
                 entwickeln.
               </p>
+              <p>
+                Für Führungskräfte: Executive Coaching und die Begleitung von
+                Geschäftsleitungen biete ich über{" "}
+                <a
+                  href="https://tavyro.ch"
+                  className="text-green underline decoration-beige underline-offset-4 transition-colors hover:decoration-sage"
+                >
+                  TaVyro
+                </a>{" "}
+                an.
+              </p>
             </div>
           </div>
         </div>
