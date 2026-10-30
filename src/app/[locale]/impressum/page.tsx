@@ -76,14 +76,6 @@ export default async function ImpressumPage({ params }: Props) {
           </a>
         </p>
       </div>
-
-      <div className="border-t border-line pt-8 text-sm">
-        <p className="font-medium text-foreground">{t("todoTitle")}</p>
-        <ul className="mt-3 list-disc space-y-1 pl-5">
-          <li>{t("todoUid")}</li>
-          <li>{t("todoRegister")}</li>
-        </ul>
-      </div>
     </LegalPage>
   );
 }
